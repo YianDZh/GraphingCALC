@@ -10,12 +10,12 @@ animate::animate():sidebar(WORK_PANEL, SIDE_BAR)
 
 {
         
-    if (!_font.loadFromFile("ToThePointRegular.ttf")){
+    if (!_font.loadFromFile("fonts/ToThePointRegular.ttf")){
         cout<<"Sidebar() CTOR: Font failed to load"<<endl;
         cin.get();
         exit(-1);
     }
-    if (!font.loadFromFile("Roboto-Thin.ttf")){
+    if (!font.loadFromFile("fonts/Roboto-Thin.ttf")){
         cout<<"Sidebar() CTOR: Font failed to load"<<endl;
         cin.get();
         exit(-1);
